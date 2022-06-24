@@ -1,0 +1,247 @@
+.heading-top{
+    font:  14px/16px $latoregular;
+    color: $white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    @media (min-width: $size-m){
+        font: 14px/21px;
+    }
+}
+.heading-main{
+    font: 18px/24px $robotobold;
+    font-weight: 700;
+    color: $text;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    @media (min-width: $size-m){
+        font: 36px/42px $robotobold;
+        font-weight: 700;
+    }
+}
+.heading-details{
+    text-align: center;
+    font: 14px/16px $robotobold;
+    font-weight: 700;
+    color: $text;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+}
+.announcement-text{
+    font-family: $robotoregular;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: $text;
+    font-family: Roboto, sans-serif;
+}
+.heading-sale{
+    font: 22px/33px $robotobold;
+    font-weight: 700;
+    color: $green-primary-color;
+    margin-bottom: 33px;
+    font-family: Roboto, sans-serif;
+}
+.head-content{
+    margin-bottom: 54px;
+}
+.heading-sale-block{
+    margin-bottom: 10px;
+}
+.head-block{
+    font: 18px/18px $robotobold;
+    color: $text;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+}
+.head-content-search{
+    font: 18px/27px $robotobold;
+    font-weight: 700;
+    color: $white;
+    margin-bottom: 23px;
+    font-family: Roboto, sans-serif;
+}
+.head-ezy{
+    font: 40px/40px $robotobold;
+    color: $green-primary-color;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    @media (min-width: $size-m){
+        font: 50px/50px $robotobold;
+        font-weight: 700;
+    }
+}
+.footer-text{
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font: 12px/18px;
+    color: $text;
+}
+.heading-section{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: $black;
+    margin-bottom: 15px;
+}
+.heading-section-secondary{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: $text;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    position: relative;
+    &::before{
+        background: url(../images/ico17.svg) no-repeat;
+        position: absolute;
+        content: "";
+        width: 22px;
+        height: 27px;
+        top: -8px;
+        left: -28px;
+    }
+    .card-active &{
+        font-size: 14px;
+        line-height: 16px;
+    }
+} 
+.card-head{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: $text;
+    margin-bottom: 18px;
+    .row-aside &{
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+}
+.card-price{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: $text;
+}
+.aside-head{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    color: $text;
+    margin-bottom: 10px;
+}
+.cancel-text{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: $cancel-button;
+}
+.product-head{
+    font-family: Roboto, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: $text;
+    margin-bottom: 10px;
+}
+.product-text{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 500;
+    color: $cancel-button;
+}
+.icon-cart{
+    content: "\e93a";
+}
+.rating-desc{
+    margin-right: 25px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: $rating-desc;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.price-head{
+    display: block;
+    margin-bottom: 15px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    color: $product-price;
+
+}
+.product-price{
+    display: block;
+    font-family: Roboto,sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    color: $text;
+    margin-bottom: 24px;
+}
+.head-desc{
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: $text;
+    margin-bottom: 10px;
+}
+.seller-heading{
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    color: $text;
+    margin-bottom: 5px;
+}
+.seller-desc{
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: $text;
+}
+.medium{
+    font-weight: 500;
+}
+.seller-price{
+    display: block;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: $text;
+}
+.charasteristics-heading{
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: $text;
+    max-width: 555px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.charasteristics-second-head{
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    color: $black;
+    margin-bottom: 10px;
+}

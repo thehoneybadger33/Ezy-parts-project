@@ -1,0 +1,74 @@
+.row{
+    display: block;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+    @media (min-width: $size-m){
+        display: flex;
+    }
+    .card-active &{
+        display: block;
+    }
+}
+.row-main{
+    .card-active &{
+        width: 100%;
+        padding-top: 32px;
+        max-width: 700px;
+    }
+    @media (min-width: $size-xs){
+            display: flex;
+        }
+}
+.row-details{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    @media (min-width: $size-m){
+        margin-right: -7px;
+        margin-left: -7px;
+    }
+}
+.col{
+    flex: 0 0 25%;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    .row-main &{
+        @media (min-width: $size-xs){
+            flex: 0 0 50%;
+        }
+        @media (min-width: $size-s){
+            flex: 0 0 33.3%;
+        }
+        @media (min-width: $size-m){
+            flex: 0 0 25%;
+        }
+    }
+    .row-aside &{
+        @media (min-width: $size-xs){
+            flex: 0 0 50%;
+        }
+        @media (min-width: $size-s){
+            flex: 0 0 33.3%;
+        }
+        @media (min-width: $size-m){
+            flex: 0 0 25%;
+        }
+    }
+}
+.col-details{
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.row-sale{
+    margin-right: -11px;
+    margin-left: -11px;
+}
+.col-sale{
+    flex: 0 0 20%;
+    padding-right: 5px;
+    padding-left: 5px;
+}

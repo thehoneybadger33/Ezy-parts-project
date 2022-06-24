@@ -1,0 +1,16 @@
+.delivery{
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.5326505602240896) 0%, rgba(0,0,0,1) 100%);
+    padding: 30px 0 10px 0;
+    @media (min-width: $size-m){
+        padding: 10px 0 10px 0;
+    }
+    
+}
+.delivery-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}

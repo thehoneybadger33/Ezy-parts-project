@@ -1,0 +1,96 @@
+.footer{
+    @include footer-bg;
+    position: relative;
+    z-index: 10;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/img13.png) no-repeat;
+        width: 525px;
+        height: 294px;
+        top: -30px;
+        left: 100px;
+    }
+    &::after{
+         position: absolute;
+        content: "";
+        background: url(../images/img14.png) no-repeat;
+        width: 498px;
+        height: 294px;
+        display: none;
+        top: -30px;
+        right: 0px;
+        @media (min-width: $size-xl){
+            display: block;
+        }
+    }
+}
+.footer-sales{
+    padding: 45px 0 45px 0;
+    text-align: center;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/img11.png) no-repeat;
+        width: 262px;
+        height: 224px;
+        top: -33px;
+        left: -107px;
+        display: none;
+        @media (min-width: $size-m){
+            display: block;
+    }
+    }
+    &::after{
+        position: absolute;
+        content: "";
+        background: url(../images/img12.png) no-repeat;
+        width: 217px;
+        height: 208px;
+        display: none;
+        top: 57px;
+        right: -131px;
+        @media (min-width: $size-m){
+            display: block;
+    }
+    }
+}
+.advertising-banner{
+    display: none;
+    @media (min-width: $size-s){
+        display: block;
+    }
+}
+.advertising-banner-content{
+    width: 100%;
+    object-fit: cover;
+    height: 98px;
+}
+.footer-content{
+    padding: 30px 0 30px 0;
+    display: block;
+    @media (min-width: $size-xs){
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.social-holder{
+    display: block;
+    @media (min-width: $size-s){
+        display: flex;
+        justify-content: space-between;
+        max-width: 400px;
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+.social-media{
+    display: flex;
+    height: fit-content;
+}
+.social-link{
+    margin-right: 10px;
+    display: block;
+}
+

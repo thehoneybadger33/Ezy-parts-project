@@ -1,0 +1,17 @@
+.logo-mobile{
+    display: block;
+    color: $text;
+    @media (min-width: $size-m){
+        display: none;
+    }
+}
+.logo-header{
+    display: none;
+    padding: 0 10px;
+    @media (min-width: $size-m){
+        display: block;
+    }
+}
+.logo{
+    display: block;
+}

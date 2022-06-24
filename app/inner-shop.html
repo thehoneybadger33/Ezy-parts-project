@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ezy-parts</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/slick.scss">
+    <link rel="stylesheet" href="css/slick-theme.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">    
+    <div class="delivery">
+        <div class="container">
+            <div class="delivery-holder">
+                
+                
+                
+                <div class="select-group select-location">
+    <label class="select-label" for="selectid"></label>
+    <select class="select" name="select" id="selectid">
+        <option value="Алматы">
+            Алматы
+        </option>
+    </select>
+</div>
+                <h2 class="heading-top">БЕСПЛАТНАЯ ДОСТАВКА ЗАКАЗОВ ДО КОНЦА ДЕКАБРЯ!</h2>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+    <div class="container">
+        <div class="nav-holder">
+            <a class="logo-mobile" href="#"><img src="images/logo03.svg" alt="logo"></a>
+            
+            
+            <div class="logo-header">
+    <a class="logo" href="#"><img src="images/logo01.svg" alt=""></a>
+</div>
+            <a id="myBtn" class="nav-bar-icon" href="#"><img src="images/ico16.svg" alt="menu-icon"></a>
+            <nav class="nav-bar">
+    <ul class="nav-list">
+        
+        
+        <li class="nav-item" is-active"><a class="nav-link"  href="#">О нас</a></li>
+
+        
+        
+        <li class="nav-item" "><a class="nav-link"  href="#">Помощь</a></li>
+
+        
+        
+        <li class="nav-item" "><a class="nav-link"  href="#">Продавцу</a></li>
+
+        
+        
+        <li class="nav-item" "><a class="nav-link"  href="#">Покупателю</a></li>
+
+        
+        
+        <li class="nav-item" "><a class="nav-link"  href="#">Контакты</a></li>
+    </ul>
+</nav> 
+            <div class="search-holder">
+                
+                
+                
+                
+                
+                <label for="search"></label>
+<input class="search" type="text" id="search" placeholder="Введите номер детали, название или VIN">
+<button class="button-placeholder button-watch"></button>
+<button class="button-placeholder button-search"></button>
+            </div>
+            <div class="d-flex">
+                
+                
+                
+                <button class="button-header transition">
+    <img src="images/ico04.svg" alt="shop-button>">
+</button>
+
+
+                
+                
+                
+                <button class="button-header transition">
+    <img src="images/ico05.svg" alt="user-button>">
+</button>
+
+            </div>    
+        </div>
+    </div>
+</div>
+    <div class="catalogue">
+    <div class="container">
+        <a id="myBurger" class="burger-button" href="#"><img class="burger-img" src="images/icon01.svg" alt="burger-icon"></a>
+        <ul class="catalogue-list">
+            
+            
+            <li class="catalogue-item is-active"><a href="#" class="catalogue-link">Каталог</a></li>
+
+            
+            
+            <li class="catalogue-item "><a href="#" class="catalogue-link">ТО/<br> фильтра</a></li>
+
+            
+            
+            <li class="catalogue-item "><a href="#" class="catalogue-link">Двигатель<br>/ выхлоп</a></li>
+
+            
+            
+            <li class="catalogue-item "><a href="#" class="catalogue-link">Подвеска<br>/ рулевое</a></li>
+
+            
+            
+            <li class="catalogue-item "><a href="#" class="catalogue-link">Коробка<br>передач</a></li>
+
+            
+            
+            <li class="catalogue-item "><a href="#" class="catalogue-link">Охлождение<br>/ отопление</a></li>
+
+            
+            
+            <li class="catalogue-item "><a href="#" class="catalogue-link">Электрика<br>/ освещение</a></li>
+            
+            
+            
+            <li class="catalogue-item "><a href="#" class="catalogue-link">Кузов<br>/ элементы</a></li>
+        </ul>
+    </div>
+</div>
+</header>
+    <main class="main">
+        <div class="container">
+            <div class="content">
+                <aside class="aside">
+    <div class="button-aside">
+        
+        
+        
+        <button id="shopLine" class="button-aside-switch"><img class="button-aside-img" src="images/ico19.svg" alt="button-icon"></button>
+
+        
+        
+        
+        <button id="shopMain" class="button-aside-switch"><img class="button-aside-img" src="images/ico20.svg" alt="button-icon"></button>
+    </div>
+    <form class="form-aside" action="#">
+        
+        
+        
+        
+        <div class="select-group select-aside">
+    <label class="select-label" for="selectAside"></label>
+    <select class="select" name="select" id="selectAside">
+        <option value="Алматы">
+            Алматы
+        </option>
+    </select>
+</div>
+
+        
+        
+        
+        
+        <div class="checkbox checkbox-head">
+    <input class="checkbox-input" type="checkbox" id="checkbox01" name="checkbox">
+    <label class="checkbox-label" for="checkbox01">Доставка из других регионов</label>
+</div>
+        <h3 class="aside-head mb25">Цена</h3>
+        <h3 class="aside-head">Производитель</h3>
+        
+        
+        
+        
+        <div class="checkbox ">
+    <input class="checkbox-input" type="checkbox" id="checkbox02" name="checkbox">
+    <label class="checkbox-label" for="checkbox02">DENSO</label>
+</div>
+
+        
+        
+        
+        
+        <div class="checkbox ">
+    <input class="checkbox-input" type="checkbox" id="checkbox03" name="checkbox">
+    <label class="checkbox-label" for="checkbox03">FEBI</label>
+</div>
+
+        
+        
+        
+        
+        <div class="checkbox ">
+    <input class="checkbox-input" type="checkbox" id="checkbox04" name="checkbox">
+    <label class="checkbox-label" for="checkbox04">NGK</label>
+</div>
+
+        
+        
+        
+        
+        <div class="checkbox ">
+    <input class="checkbox-input" type="checkbox" id="checkbox05" name="checkbox">
+    <label class="checkbox-label" for="checkbox05">NISSAN</label>
+</div>
+
+        
+        
+        
+        
+        <div class="checkbox ">
+    <input class="checkbox-input" type="checkbox" id="checkbox06" name="checkbox">
+    <label class="checkbox-label" for="checkbox06">RENAULT</label>
+</div>
+
+        
+        
+        
+        
+        <div class="checkbox mb-10">
+    <input class="checkbox-input" type="checkbox" id="checkbox07" name="checkbox">
+    <label class="checkbox-label" for="checkbox07">VAG</label>
+</div>
+        <div class="radio-button">
+            <h3 class="aside-head">Состяние</h3>
+            
+            
+            
+            
+            
+            <div class="radio ">
+    <input class="radio-input" type="radio" id="radio01" name="radio1">
+    <label class="radio-label" for="radio01">Все</label>
+</div>
+
+            
+            
+            
+            
+            
+            <div class="radio ">
+    <input class="radio-input" type="radio" id="radio02" name="radio1">
+    <label class="radio-label" for="radio02">Новые</label>
+</div>
+
+            
+            
+            
+            
+            
+            <div class="radio ">
+    <input class="radio-input" type="radio" id="radio03" name="radio1">
+    <label class="radio-label" for="radio03">Б/у</label>
+</div>
+        </div>
+        <div class="radio-button">
+            <h3 class="aside-head">Сортировать</h3>
+            
+            
+            
+            
+            
+            <div class="radio ">
+    <input class="radio-input" type="radio" id="radio04" name="radio2">
+    <label class="radio-label" for="radio04">по дате объявления</label>
+</div>
+        
+            
+            
+            
+            
+            
+            <div class="radio ">
+    <input class="radio-input" type="radio" id="radio05" name="radio2">
+    <label class="radio-label" for="radio05">по цене</label>
+</div>
+            <div class="mb-25">
+            
+            
+            
+            
+            
+            <div class="radio mb-25">
+    <input class="radio-input" type="radio" id="radio06" name="radio2">
+    <label class="radio-label" for="radio06">по рейтингу</label>
+</div>
+            </div>
+            <div class="mb-25">
+                
+                
+                
+                
+                <div class="checkbox mb-none">
+    <input class="checkbox-input" type="checkbox" id="checkbox08" name="checkbox">
+    <label class="checkbox-label" for="checkbox08">Только с фото</label>
+</div>
+
+                
+                
+                
+                
+                <div class="checkbox mb-none">
+    <input class="checkbox-input" type="checkbox" id="checkbox09" name="checkbox">
+    <label class="checkbox-label" for="checkbox09">Доставка в бокс</label>
+</div>
+            </div>
+        </div>
+        <div class="radio-block">
+            
+            
+            
+            
+            
+            <div class="radio ">
+    <input class="radio-input" type="radio" id="radio07" name="radio3">
+    <label class="radio-label" for="radio07">В наличии</label>
+</div>
+        
+            
+            
+            
+            
+            
+            <div class="radio ">
+    <input class="radio-input" type="radio" id="radio08" name="radio3">
+    <label class="radio-label" for="radio08">На заказ</label>
+</div>
+        </div>
+
+        
+        
+        <button class="cancel-button">Сбросить фильтры</button>
+
+    </form>
+</aside>
+                <section class="section">
+        <buttom id="aside-switch" class="button-gear"></buttom>
+    <ul class="breadcrumbs-list">
+        
+        
+        
+        <li class="breadcrumbs-item"><a class="breadcrumbs-link" href="#">Главная</a></li>
+
+
+        
+        
+        
+        <li class="breadcrumbs-item"><a class="breadcrumbs-link" href="#">Запчасти</a></li>
+
+
+        
+        
+        
+        <li class="breadcrumbs-item"><a class="" href="#"></a>Колодки тормозные дисковые</li>
+
+    </ul>
+    <h1 class="heading-section">Колодки тормозные дисковые</h1>
+    <div id="js-switch" class="card-block">
+        <div class="flex-column">
+            <h2 class="heading-section-secondary">Горящие предложения недели</h2>
+        <div class="row row-aside">
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card card-secondary">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="card card-secondary">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card card-secondary">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card card-secondary">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            </div>
+        </div>
+        <div class="border-line"></div>
+        <div class="row row-main">
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+            <div class="col">
+                
+                
+                
+                
+                
+                
+                
+                <div class="card ">
+    <div class="card-media">
+        <img class="card-media-content" src="images/img15.jpg" alt="">
+    </div>
+    <div class="flex-column">
+    <h3 class="card-head">Колодки тормозные<br>дисковые</h3>
+    <span>Toyota Camry</span>
+    <button class="card-button "><span class="icon-cart"></span></button>
+    <span class="card-price">99 999 тг.</span>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section> 
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-sales">
+            <h2 class="head-ezy">Начните продавать<br> на EZY Parts!</h2>
+            
+            
+            
+            
+            <button class="footer-button">СТАТЬ ПРОДАВЦОМ</button>
+
+        </div>
+    </div>
+    <div class="advertising-banner">
+        <img class="advertising-banner-content" src="images/banner.jpg" alt="advertising-banner">
+    </div>
+    <div class="container">
+        <div class="footer-content">
+            <div class="list-holder">
+                <ul class="footer-list">
+                    
+                    <li class="footer-item "><a href="#" class="footer-link">Каталог автозапчастей</a></li>
+                    
+                    <li class="footer-item "><a href="#" class="footer-link">О компании</a></li>
+                    
+                    <li class="footer-item "><a href="#" class="footer-link">Помощь</a></li>
+                    
+                    <li class="footer-item "><a href="#" class="footer-link">Покупателю</a></li>
+                </ul>
+                <ul class="footer-list">
+                    
+                    <li class="footer-item "><a href="#" class="footer-link">Продавцу</a></li>
+                    
+                    <li class="footer-item "><a href="#" class="footer-link">Реклама на сайте</a></li>
+                    
+                    <li class="footer-item "><a href="#" class="footer-link">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="social-holder">
+                <div class="social-media">
+                    
+                    
+                    <a class="social-link" href="#"><img src="images/ico12.svg" alt="VK-icon"></a>
+
+                    
+                    
+                    <a class="social-link" href="#"><img src="images/ico13.svg" alt="Facebook-icon"></a>
+
+                    
+                    
+                    <a class="social-link" href="#"><img src="images/ico14.svg" alt="Instagram-icon"></a>
+                </div>
+                <div class="logo-footer">
+                    
+                    <div class="logo-footer">
+    <a class="logo" href="#"><img src="images/logo02.svg" alt=""></a>
+</div>
+                    <p class="footer-text">© 2021, EZY parts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

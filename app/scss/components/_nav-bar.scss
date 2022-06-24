@@ -1,0 +1,43 @@
+.nav-list{
+    display: flex;
+    position: relative;
+}
+.nav-item{
+    position: relative;
+    margin-right: 30px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.nav-link{
+    text-decoration: none;
+    font: 12px/18px $latoregular;
+    font-weight: 400;
+    color: $text;
+    transition: ease-in-out 0.2s;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.active{
+    display: flex;
+    justify-content: center;
+    background-color: $white;
+    position: absolute;
+    top: 134px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 18px 0;
+    & .nav-item{
+        @media (max-width: $size-xs){
+            margin: 0 10px;
+        }
+    }
+   @media (min-width: 494px){
+       top: 130px;
+   }
+    @media (min-width:$size-m){
+        top: 110px;
+    }
+}

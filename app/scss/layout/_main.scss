@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    font: 14px/18px $robotoregular;
+    color: $text;
+    font-family: Roboto, sans-serif;
+    background-color: $white;
+    height: 100%;
+}
+.wrapper{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1120px;
+    padding: 0 10px;
+}
+.container-announcement{
+    max-width: 920px;
+}
+::placeholder{
+    font: 12px/18px $robotoregular;
+    color: $placeholder;
+}
+.main{
+    flex: 1 1 auto;
+}

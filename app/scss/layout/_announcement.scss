@@ -1,0 +1,23 @@
+.announcement{
+    margin-top: 0;
+     padding-top: 20px;
+    @media (min-width: $size-m){
+     margin-top: -100px;
+    }
+}
+.announcement-content{
+    display: block;
+    text-align: center;
+    background-color: $white;
+    border-radius: 5px;
+    padding: 27px 8px 27px 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    z-index: 1;
+    box-shadow: 1px 6px 20px -8px $darkgreen;
+}
+.announcement-icon{
+    margin-bottom: 15px;
+}

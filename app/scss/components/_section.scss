@@ -1,0 +1,9 @@
+.section{
+    padding: 20px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    @media (min-width: $size-m){
+        padding: 40px 0 177px 0;
+    }
+}

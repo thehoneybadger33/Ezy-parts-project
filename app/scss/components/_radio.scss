@@ -1,0 +1,37 @@
+.radio{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+.radio-block{
+    margin-bottom: 25px;
+}
+.radio-input{
+    visibility: hidden;
+    opacity: 0;
+		&:checked + .radio-label:before{
+			content: "\f111";
+			color: #00766c;
+        }
+}
+.radio-label{
+    cursor: pointer;
+        &::before{
+			content: "";
+			font-family: "FontAwesome";
+            position: absolute;
+            top: 1px;
+            left: -2px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 14px;
+            width: 13px;
+            height: 14px;
+            padding-left: 1px;
+            border-radius: 50%;
+            border: 1px solid $text;
+			display: inline-flex;
+            margin-right: 10px;
+        }
+}

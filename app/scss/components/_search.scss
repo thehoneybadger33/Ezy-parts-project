@@ -1,0 +1,35 @@
+.search{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $text;
+    box-sizing: border-box;
+    outline: none;
+    padding-bottom: 6px;
+    padding-right: 55px;
+}
+
+.search-holder{
+    position: relative;
+    max-width: 150px;
+    width: 100%;
+    @media (min-width: $size-xs){
+        max-width: 230px;
+    }
+    @media (min-width: $size-s){
+        max-width: 400px;
+    }
+}
+.search-content{
+    @extend %hidden;
+}
+.search-extend-class{
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    outline: none;
+    padding: 10px 40px 10px 15px;
+    &::placeholder{
+        font: 14px/21px $robotoregular;
+        font-weight: 400;
+    }
+}

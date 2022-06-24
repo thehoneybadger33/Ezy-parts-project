@@ -1,0 +1,38 @@
+.product{
+    padding: 40px 0 70px 0;
+}
+.product-block{
+    display: flex;
+    justify-content: space-between;
+}
+.product-media{
+    max-width: 556px;
+    width: 100%;
+    margin-right: 30px;
+    min-width: 0%;
+    flex: none;
+}
+.product-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.product-media-content{
+    border: 1px solid $product-media-border;
+}
+.star{
+    margin-right: 10px;
+}
+.star-seller{
+    margin-bottom: 5px;
+}
+.pick-link{
+    border: 1px solid $product-media-border;
+    &:hover{
+        border: 1px solid $product-hover;
+    }
+}
+.desc-list{
+    list-style: disc;
+    margin-left: 23px;
+}

@@ -1,0 +1,239 @@
+.button-primary{
+    max-width: 256px;
+    height: 41px;
+    width: 100%;
+    background: $accent-secondary;
+    border: none;
+    border-radius: 20px;
+    color: $white;
+    font: 16px/18px $robotobold;
+    transition: ease-in-out 0.2s;
+        &:hover{
+            transform: scale(1.1);
+        }
+}
+.button-header{
+    background-color: $header-button-green;
+    flex: none;
+    max-width: 35px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 13px;
+    transition: ease-in-out 0.2s;
+        &:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+}
+.button-placeholder{
+    position: absolute;
+    border: none;
+    
+}
+.button-watch{
+    background: url(../images/ico03.svg) no-repeat;
+    width: 17px;
+    height: 17px;
+    top: 1px;
+    right: 29px;
+}
+.button-search{
+    background: url(../images/ico02.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    right: 0;
+}
+.search-content-button{
+    visibility: hidden;
+    opacity: 0;
+}
+.content-button{
+    visibility: visible;
+    opacity: 1;
+    border: none;
+    position: absolute;
+    background:url(../images/ico11.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    right: 12px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.content-oil-button{
+    @extend %hidden;
+}
+.content-oil-button2{
+    @extend %hidden;
+}
+.oil-button{
+    visibility: visible;
+    opacity: 1;
+    max-width: 83px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid $green-primary-color;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 5px;
+    font: 16px/24px $robotomedium;
+    font-weight: 500;
+    color: $button-green;
+    background: $content-block-bg;
+    transition: ease-in-out 0.2s;
+    &:hover{
+        color: $white;
+        background-color: $green-primary-color;
+    }
+}
+.battery-button{
+    visibility: visible;
+    opacity: 1;
+    max-width: 138px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid $green-primary-color;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 5px;
+    font: 14px/14px $robotomedium;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    color: $content-btn-color;
+    background: $content-block-bg;
+    transition: ease-in-out 0.2s;
+    &:hover{
+        color: $white;
+        background-color: $green-primary-color;
+    }
+}
+.footer-button{
+    max-width: 300px;
+    width: 100%;
+    height: 45px;
+    background-color: $content-btn-color;
+    color: $white;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    transition: ease-in-out 0.2s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    @media (min-width: $size-m) {
+        max-width: 397px;
+    }
+}
+.burger-button{
+    display: block;
+    @media (min-width: $size-s){
+        display: none;
+    }
+}
+.burger-img{
+    vertical-align: middle;
+}
+.card-button{
+    border: none;
+    width: 49px;
+    height: 43px;
+    background: $shop-block-btn;
+    border-radius: 3px;
+    align-self: flex-end;
+    transition: ease-in-out 0.2s;
+    &:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .card-active .row-aside &{
+        display: none;
+    }
+}
+.button-aside-switch{
+    border: none;
+    background: $white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.button-aside-img{
+    max-width: 30px;
+}
+.cancel-button{
+    border: none;
+    background: $white;
+    margin-left: 18px;
+    color: $cancel-button;
+    position: relative;
+    &:hover{
+        cursor: pointer;
+    }
+    &::before{
+        position: absolute;
+        content: "";
+        background: url(../images/ico21.svg) no-repeat;
+        width: 16px;
+        height: 16px;
+        top: 0;
+        left: -15px;
+    }
+}
+.button-aside{
+    display: flex;
+    margin-bottom: 15px;
+}
+.icon-cart:before {
+  content: "\e93a";
+  color: $white;
+  font-size: 21px;
+}
+.button-gear{
+    border: none;
+    background: $white;
+    background-image: url(../images/ico23.svg);
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    z-index: 2;
+    @media (min-width: $size-m){
+        display: none;
+    }
+}
+.red-primary-button{
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 42px;
+    height: 41px;
+    border: 1px solid $red-primary-button;
+    background-color: $white;
+    border-radius: 100px;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: $text;
+    margin-right: 25px;
+    transition: ease-in-out 0.2s;
+    &:hover{
+        background-color: $red-primary-button;
+        color: $white;
+    }
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.tab-review{
+    width: fit-content;
+    height: 50px;
+    margin: 0;
+}

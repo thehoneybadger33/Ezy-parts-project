@@ -1,0 +1,25 @@
+.footer-item{
+    padding-bottom: 5px;
+}
+.list-holder{
+    display: block;
+        margin-bottom: 10px;
+    @media (min-width: $size-s) {
+        display: flex;
+        justify-content: space-between;
+        max-width: 380px;
+        width: 100%;
+    }
+}
+.footer-list{
+}
+.footer-link{
+    text-decoration: none;
+    font: 16px/24px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: $text;
+    &:hover{
+        text-decoration: underline;
+    }
+}

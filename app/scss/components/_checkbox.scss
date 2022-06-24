@@ -1,0 +1,30 @@
+.checkbox{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.checkbox-label{
+	cursor: pointer;
+	color: $text;
+    &::before{
+			content: "\f096";
+			font-family: "FontAwesome";
+			speak-as: none;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			line-height: 1;
+			width: 0.5em;
+			display: inline-block;
+            margin-right: 10px;
+            transition: ease-in-out 0.2s;
+        }
+}
+.checkbox-input{
+		display: none;
+		&:checked + .checkbox-label:before{
+			content: "\f14a";
+			color: #00766c;
+        }
+}

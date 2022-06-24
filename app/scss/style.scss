@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500;700&display=swap');
+@import "helpers/variables";
+@import "helpers/fonts";
+@import "helpers/typography";
+@import "helpers/placeholders";
+@import "helpers/flex";
+@import "helpers/mixins";
+@import "helpers/spaces";
+@import "helpers/positions";
+
+@import "layout/delivery";
+@import "layout/navigation";
+@import "layout/sidebar";
+@import "layout/grid";
+@import "layout/forms";
+@import "layout/footer";
+@import "layout/main";
+@import "layout/announcement";
+@import "layout/sale";
+
+@import "pages/home";
+@import "pages/contact";
+
+@import "base/reset";
+
+@import "components/select";
+@import "components/nav-bar";
+@import "components/search.scss";
+@import "components/catalogue";
+@import "components/details";
+@import "components/button";
+@import "components/add-form";
+@import "components/section-content";
+@import "components/content-block";
+@import "components/footer";
+@import "components/footer-list";
+@import "components/logo";
+@import "components/breadcrumbs-list";
+@import "components/section";
+@import "components/card";
+@import "components/aside";
+@import "components/checkbox";
+@import "components/radio";
+@import "components/poduct";
+@import "components/tab-panel";
+@import "components/rating";
+@import "components/slick";
+
+@import "../css/slick.scss";
+@import "../css/slick-theme.scss";

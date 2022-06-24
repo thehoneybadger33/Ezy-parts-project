@@ -1,0 +1,9 @@
+@mixin bg-content {
+    background: $content-block-bg;
+}
+@mixin bg-search  {
+    background: $content-block-bg2;
+}
+@mixin footer-bg {
+    background-color: $footer-bg;
+}

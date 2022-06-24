@@ -1,0 +1,19 @@
+.sale{
+    padding: 50px 0 100px 0;
+    background-color: $white;
+    @media (max-width: 375px){
+        padding-bottom: 50px;
+    }
+}
+.sale-block{
+    border: 1px solid $border-sale-block;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 1px 11px 10px -7px $shadow-sale-block;
+}
+.img-sale{
+    margin-bottom: 10px;
+}

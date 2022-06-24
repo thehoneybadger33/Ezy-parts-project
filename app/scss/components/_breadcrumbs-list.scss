@@ -1,0 +1,31 @@
+.breadcrumbs-list{
+    display: flex;
+    margin-bottom: 10px;
+    .product &{
+        margin-bottom: 20px;
+    }
+}
+.breadcrumbs-item{
+    margin-right: 15px;
+    color: $breadcrumbs;
+    font: 12px/14px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+}
+.breadcrumbs-link{
+    position: relative;
+    color: $breadcrumbs;
+    text-decoration: none;
+    font: 12px/14px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    &:hover{
+        text-decoration: underline;
+    }
+    &::after{
+        position: absolute;
+        content: "/";
+        top: 0;
+        right: -10px;
+    }
+}

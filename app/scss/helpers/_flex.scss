@@ -1,0 +1,28 @@
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.flex-column-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    .card-active .row-main &{
+        width: 100%;
+    }
+    .card-active .row-aside &{
+        width: 100%;
+    }
+}
+.d-none{
+    display: none;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}

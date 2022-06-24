@@ -1,0 +1,24 @@
+.section-content{
+    padding-bottom: 30px;
+    @media (min-width: $size-l){
+      padding-bottom: 127px;
+    }
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.content-holder{
+  display: block;
+  grid-template-columns: repeat(3, max-width(360px));
+  grid-template-rows: repeat(4, max-width(136px));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  @media (min-width: $size-l){
+    display: grid;
+    }
+}
+.motor-oil { grid-area: 2 / 1 / 4 / 2; }
+.search-grid { grid-area: 1 / 3 / 3 / 4; }
+.battery { grid-area: 3 / 3 / 5 / 4; }

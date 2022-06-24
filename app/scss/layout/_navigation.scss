@@ -1,0 +1,21 @@
+.nav{
+    background: $white;
+    padding: 7px 0 7px 0;
+}
+.nav-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar{
+    display: none;
+    @media (min-width: $size-l){
+        display: block;
+    }
+}
+.nav-bar-icon{
+    display: block;
+    @media (min-width: $size-l){
+        display: none;
+    }
+}
